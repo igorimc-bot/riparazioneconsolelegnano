@@ -10,9 +10,9 @@ $services = get_all_services($pdo);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elettricista Milano e Provincia - Pronto Intervento</title>
+    <title>Assistenza Computer Legnano e Provincia - Pronto Intervento</title>
     <meta name="description"
-        content="Elettricista esperto a Milano, Legnano e provincia. Interventi rapidi, impianti elettrici, certificazioni e manutenzione.">
+        content="Assistenza informatica esperta a Legnano, Milano e provincia. Riparazione PC, siti web, recupero dati e servizi digitali.">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link
@@ -25,7 +25,7 @@ $services = get_all_services($pdo);
     <header class="header">
         <div class="container">
             <div class="logo">
-                <a href="/">La Legnano Informatica (Elettricista)</a>
+                <a href="/">La Legnano Informatica (Riparazione PC)</a>
             </div>
             <nav class="nav">
                 <a href="#servizi">I Servizi</a>
@@ -37,7 +37,7 @@ $services = get_all_services($pdo);
 
     <section class="hero">
         <div class="container">
-            <h1>Elettricista Professionista a Milano e Provincia</h1>
+            <h1>Assistenza Informatica Professionale a Legnano e Provincia</h1>
             <p>Interventi rapidi e garantiti a Legnano e dintorni. Operativi H24.</p>
             <a href="#contatti" class="btn-hero">Chiama Ora</a>
         </div>

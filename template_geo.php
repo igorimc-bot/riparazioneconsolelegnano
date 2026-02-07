@@ -34,7 +34,7 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <?= $page_title ?> - Elettricista Pronto Intervento
+        <?= $page_title ?> - Assistenza Computer Pronto Intervento
     </title>
     <meta name="description" content="<?= $meta_description ?>">
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -46,7 +46,7 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
     <header class="header">
         <div class="container">
             <div class="logo">
-                <a href="/">La Legnano Informatica (Elettricista)</a>
+                <a href="/">La Legnano Informatica (Riparazione PC)</a>
             </div>
             <nav class="nav">
                 <a href="/">Home</a>
