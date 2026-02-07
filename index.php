@@ -38,12 +38,9 @@ $zones = get_all_zones($pdo);
 
     <section class="hero">
         <div class="hero-slider">
-            <div class="slide" style="background-image: url('https://source.unsplash.com/1920x1080/?gaming,pc,rgb')">
-            </div>
-            <div class="slide"
-                style="background-image: url('https://source.unsplash.com/1920x1080/?server,datacenter,blue')"></div>
-            <div class="slide"
-                style="background-image: url('https://source.unsplash.com/1920x1080/?motherboard,circuit,tech')"></div>
+            <div class="slide" style="background-image: url('/assets/img/hero_home_1.jpg')"></div>
+            <div class="slide" style="background-image: url('/assets/img/hero_home_2.jpg')"></div>
+            <div class="slide" style="background-image: url('/assets/img/hero_home_3.jpg')"></div>
         </div>
         <div class="hero-overlay"></div>
         <div class="container">
