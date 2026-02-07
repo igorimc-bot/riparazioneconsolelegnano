@@ -7,6 +7,7 @@ $zone_slug = $_GET['zone'] ?? 'legnano'; // Default to Legnano if not specified
 
 $service = get_service_by_slug($pdo, $service_slug);
 $zone = get_zone_by_slug($pdo, $zone_slug);
+$all_zones = get_all_zones($pdo);
 
 if (!$service) {
     // Falback: redirect to home or show 404
