@@ -114,7 +114,17 @@ $zones = get_all_zones($pdo);
                 <input type="tel" name="phone" placeholder="Telefono" required>
                 <input type="email" name="email" placeholder="Email">
                 <textarea name="message" placeholder="Descrivi il problema" rows="4"></textarea>
+
+                <div class="privacy-wrapper">
+                    <input type="checkbox" id="privacy_home" name="privacy" required>
+                    <label for="privacy_home">Accetto la <a href="/privacy-policy" target="_blank">Privacy Policy</a> e
+                        i termini del servizio. Acconsento al trattamento dei dati per la gestione della
+                        richiesta.</label>
+                </div>
+
                 <button type="submit" class="btn-submit">Invia Richiesta</button>
+                <p class="legal-notice">I tuoi dati saranno trattati nel rispetto del GDPR e utilizzati esclusivamente
+                    per ricontattarti in merito alla tua richiesta di assistenza.</p>
             </form>
         </div>
     </section>

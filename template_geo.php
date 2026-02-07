@@ -99,16 +99,28 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
                         <div class="form-group">
                             <label>Telefono</label>
                             <input type="tel" name="phone" required>
-                        </div>
-                        <div class="form-group">
                             <label>Email (Opzionale)</label>
                             <input type="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Telefono</label>
+                            <input type="tel" name="phone" required>
                         </div>
                         <div class="form-group">
                             <label>Messaggio</label>
                             <textarea name="message" rows="3"></textarea>
                         </div>
+
+                        <div class="privacy-wrapper">
+                            <input type="checkbox" id="privacy_geo" name="privacy" required>
+                            <label for="privacy_geo">Accetto la <a href="/privacy-policy" target="_blank">Privacy
+                                    Policy</a> e i termini del servizio. Acconsento al trattamento dei dati per la
+                                gestione della richiesta.</label>
+                        </div>
+
                         <button type="submit" class="btn-submit-full">Invia Richiesta</button>
+                        <p class="legal-notice">I tuoi dati saranno trattati nel rispetto del GDPR e utilizzati
+                            esclusivamente per ricontattarti in merito alla tua richiesta di assistenza.</p>
                     </form>
                 </div>
             </div>

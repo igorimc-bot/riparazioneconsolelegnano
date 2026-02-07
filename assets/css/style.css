@@ -537,3 +537,43 @@ ul {
         font-size: 2.5rem;
     }
 }
+
+/* Privacy & Legal */
+.privacy-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.privacy-wrapper input[type="checkbox"] {
+    width: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.privacy-wrapper label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.privacy-wrapper label a {
+    color: var(--primary-accent);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.legal-notice {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.col-form .legal-notice {
+    text-align: left;
+}
