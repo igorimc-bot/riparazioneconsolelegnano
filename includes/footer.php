@@ -18,7 +18,8 @@
             <p style="margin-top: 10px; font-size: 0.75rem;">
                 <a href="/privacy-policy" style="color: inherit; margin: 0 10px;">Privacy Policy</a> |
                 <a href="/termini-servizio" style="color: inherit; margin: 0 10px;">Termini del Servizio</a> |
-                <a href="/cookie-policy" style="color: inherit; margin: 0 10px;">Cookie Policy</a>
+                <a href="/cookie-policy" style="color: inherit; margin: 0 10px;">Cookie Policy</a> |
+                <a href="/sitemap.xml" style="color: inherit; margin: 0 10px;">Sitemap</a>
             </p>
         </div>
     </div>
