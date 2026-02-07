@@ -56,8 +56,7 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
                 <?= htmlspecialchars($zone['name']) ?>.
             </p>
             <div class="hero-buttons">
-                <a href="tel:+390000000000" class="btn-hero"><i class="fas fa-phone"></i> Chiama Subito</a>
-                <a href="#contatti" class="btn-hero-secondary">Scrivici</a>
+                <a href="#contatti" class="btn-hero"><i class="fas fa-info-circle"></i> Richiedi Informazioni</a>
             </div>
         </div>
     </section>
