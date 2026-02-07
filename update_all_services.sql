@@ -1,6 +1,5 @@
 -- Comprehensive Update for all 18 Services
--- Add missing column
-ALTER TABLE services ADD COLUMN short_description TEXT AFTER name;
+-- (Column short_description assumed already created)
 
 -- 1. Assemblaggio PC
 UPDATE services SET 
