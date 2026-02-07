@@ -440,6 +440,65 @@ ul {
     border-left: 1px solid #e2e8f0;
 }
 
+.col-form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.col-form p {
+    color: var(--text-muted);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    color: var(--text-main);
+}
+
+.col-form input,
+.col-form textarea {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-family: inherit;
+    transition: var(--transition);
+}
+
+.col-form input:focus {
+    border-color: var(--primary-accent);
+    outline: none;
+    box-shadow: 0 0 10px rgba(155, 17, 30, 0.05);
+}
+
+.col-form button.btn-submit-full,
+.col-form .btn-submit-full {
+    width: 100%;
+    background: var(--primary-accent);
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.col-form button.btn-submit-full:hover {
+    background: #7d0e18;
+    box-shadow: 0 4px 15px rgba(155, 17, 30, 0.2);
+}
+
 .benefits-list li {
     margin-bottom: 15px;
     color: var(--text-muted);
