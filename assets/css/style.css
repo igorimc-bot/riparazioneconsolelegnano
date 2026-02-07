@@ -2,15 +2,15 @@
     --primary-bg: #ffffff;
     --secondary-bg: #f8fafc;
     --card-bg: #ffffff;
-    --primary-accent: #0066cc;
-    /* Solid Professional Blue */
-    --secondary-accent: #00d4ff;
-    /* Tech Cyan */
+    --primary-accent: #f59e0b;
+    /* Cyber Orange */
+    --secondary-accent: #fbbf24;
+    /* Lighter Amber */
     --text-main: #1e293b;
-    /* Dark Slate for text */
     --text-muted: #64748b;
     --glass-border: 1px solid rgba(0, 0, 0, 0.05);
-    --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.06);
+    --shadow-soft: 0 10px 40px rgba(245, 158, 11, 0.08);
+    /* Tinted shadow for warmth */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -113,8 +113,8 @@ ul {
 }
 
 .btn-cta:hover {
-    background: #0052a3;
-    box-shadow: 0 4px 15px rgba(0, 102, 204, 0.3);
+    background: #d97706;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
 }
 
 /* Hero Slideshow (Light Overlay) */
