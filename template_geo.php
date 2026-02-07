@@ -45,17 +45,7 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
 
 <body>
 
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="/">La Legnano Informatica (Riparazione PC)</a>
-            </div>
-            <nav class="nav">
-                <a href="/">Home</a>
-                <a href="#contatti" class="btn-cta">Richiedi Preventivo</a>
-            </nav>
-        </div>
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <section class="hero-geo">
         <div class="container">
