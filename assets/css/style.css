@@ -307,6 +307,9 @@ ul {
     border-radius: 12px;
     border: 1px solid #e2e8f0;
     transition: var(--transition);
+    display: block;
+    color: inherit;
+    text-decoration: none;
 }
 
 .service-card:hover {
@@ -323,10 +326,17 @@ ul {
 }
 
 .btn-text {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     margin-top: 15px;
     color: var(--primary-accent);
     font-weight: 700;
+    transition: var(--transition);
+}
+
+.service-card:hover .btn-text {
+    transform: translateX(5px);
 }
 
 /* Zones */

@@ -61,16 +61,15 @@ $zones = get_all_zones($pdo);
                 esigenza con professionalità e rapidità.</p>
             <div class="services-grid">
                 <?php foreach ($services as $service): ?>
-                    <div class="service-card">
+                    <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
                         <h3>
                             <?= htmlspecialchars($service['name']) ?>
                         </h3>
                         <p>
                             <?= htmlspecialchars($service['short_description']) ?>
                         </p>
-                        <a href="/<?= $service['slug'] ?>/legnano" class="btn-text">Scopri di più <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
+                        <span class="btn-text">Scopri di più <i class="fas fa-arrow-right"></i></span>
+                    </a>
                 <?php endforeach; ?>
             </div>
         </div>
