@@ -115,6 +115,40 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
         </div>
     </section>
 
+    <section class="zones-section bg-dark">
+        <div class="container">
+            <h2 class="section-title">
+                <span><?= htmlspecialchars($service['name']) ?></span> anche in altre zone
+            </h2>
+            <div class="zones-wrapper">
+                <div class="zones-column">
+                    <h3><i class="fas fa-map-marker-alt"></i> Comuni Limitrofi</h3>
+                    <div class="zones-list">
+                        <?php foreach ($all_zones as $z): ?>
+                            <?php if ($z['type'] == 'Comune' && $z['slug'] !== $zone['slug']): ?>
+                                <a href="/<?= $service['slug'] ?>/<?= $z['slug'] ?>">
+                                    <?= htmlspecialchars($z['name']) ?>
+                                </a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <div class="zones-column">
+                    <h3><i class="fas fa-city"></i> Milano Città</h3>
+                    <div class="zones-list">
+                        <?php foreach ($all_zones as $z): ?>
+                            <?php if ($z['type'] == 'Quartiere' && $z['slug'] !== $zone['slug']): ?>
+                                <a href="/<?= $service['slug'] ?>/<?= $z['slug'] ?>">
+                                    <?= htmlspecialchars($z['name']) ?>
+                                </a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <p>&copy;
