@@ -131,20 +131,21 @@ ul {
 }
 
 .hero-geo {
-    background: url('/assets/img/hero_home_2.jpg') no-repeat center center/cover;
+    background: #0f172a;
+    /* Solid dark background, no image */
     margin-bottom: 60px;
-    /* Extra space below hero */
+    color: #ffffff;
 }
 
+.hero-geo .container {
+    position: relative;
+    z-index: 5;
+    /* Ensure content is above everything */
+}
+
+/* Remove overlay for internal pages if no image is present */
 .hero-geo::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(5, 5, 16, 0.85), rgba(0, 0, 0, 0.5));
-    z-index: 1;
+    display: none;
 }
 
 .hero-slider {
