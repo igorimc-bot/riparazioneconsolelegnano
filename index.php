@@ -139,12 +139,12 @@ $zones = get_all_zones($pdo);
                 </div>
 
                 <div class="request-types">
-                    <p>Tipo di richiesta:</p>
-                    <div class="radio-group">
-                        <label><input type="radio" name="request_type" value="info" checked> Richiesta
+                    <p>Cosa ti serve? (Selezione multipla):</p>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="request_type[]" value="info" checked> Richiesta
                             Informazioni</label>
-                        <label><input type="radio" name="request_type" value="quote"> Richiesta Preventivo</label>
-                        <label><input type="radio" name="request_type" value="visit"> Uscita Assistenza</label>
+                        <label><input type="checkbox" name="request_type[]" value="quote"> Richiesta Preventivo</label>
+                        <label><input type="checkbox" name="request_type[]" value="visit"> Uscita Assistenza</label>
                     </div>
                 </div>
 
