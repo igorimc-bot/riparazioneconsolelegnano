@@ -14,4 +14,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)$ template_geo.php?service=$1 [L,QSA]
 
+# Legal Pages
+RewriteRule ^privacy-policy$ privacy-policy.php [L]
+RewriteRule ^termini-servizio$ termini-servizio.php [L]
+RewriteRule ^cookie-policy$ cookie-policy.php [L]
+
 # ErrorDocument 404 /404.php
