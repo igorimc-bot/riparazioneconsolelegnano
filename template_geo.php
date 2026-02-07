@@ -127,13 +127,12 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
 
                         <div class="form-group">
                             <label>Tipo di richiesta</label>
-                            <div class="checkbox-group-vertical">
-                                <label><input type="checkbox" name="request_type[]" value="info"> Richiesta
+                            <div class="radio-group-vertical">
+                                <label><input type="radio" name="request_type" value="info" checked> Richiesta
                                     Informazioni</label>
-                                <label><input type="checkbox" name="request_type[]" value="quote"> Richiesta
+                                <label><input type="radio" name="request_type" value="quote"> Richiesta
                                     Preventivo</label>
-                                <label><input type="checkbox" name="request_type[]" value="visit"> Uscita
-                                    Assistenza</label>
+                                <label><input type="radio" name="request_type" value="visit"> Uscita Assistenza</label>
                             </div>
                         </div>
 
