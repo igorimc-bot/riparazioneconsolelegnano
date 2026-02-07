@@ -3,6 +3,11 @@ RewriteEngine On
 # Redirect /admin to /admin/index.php if trailing slash is missing
 RewriteRule ^admin$ admin/index.php [L]
 
+# Legal Pages
+RewriteRule ^privacy-policy$ privacy-policy.php [L]
+RewriteRule ^termini-servizio$ termini-servizio.php [L]
+RewriteRule ^cookie-policy$ cookie-policy.php [L]
+
 # Route for specific service and zone (e.g., /riparazione-pc/legnano)
 # Assuming format: /service-slug/zone-slug
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -13,10 +18,5 @@ RewriteRule ^([^/]+)/([^/]+)$ template_geo.php?service=$1&zone=$2 [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)$ template_geo.php?service=$1 [L,QSA]
-
-# Legal Pages
-RewriteRule ^privacy-policy$ privacy-policy.php [L]
-RewriteRule ^termini-servizio$ termini-servizio.php [L]
-RewriteRule ^cookie-policy$ cookie-policy.php [L]
 
 # ErrorDocument 404 /404.php
