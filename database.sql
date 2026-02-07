@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS `leads`;
+DROP TABLE IF EXISTS `zones`;
+DROP TABLE IF EXISTS `services`;
+DROP TABLE IF EXISTS `users`;
+
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(50) NOT NULL,

@@ -3,6 +3,7 @@ require_once 'includes/db_connect.php';
 require_once 'includes/functions.php';
 
 $services = get_all_services($pdo);
+$zones = get_all_zones($pdo);
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -39,7 +40,10 @@ $services = get_all_services($pdo);
         <div class="container">
             <h1>Assistenza Informatica Professionale a Legnano e Provincia</h1>
             <p>Interventi rapidi e garantiti a Legnano e dintorni. Operativi H24.</p>
-            <a href="#contatti" class="btn-hero">Chiama Ora</a>
+            <div class="hero-buttons">
+                <a href="#contatti" class="btn-hero">Chiama Ora</a>
+                <a href="#servizi" class="btn-hero-secondary">I Nostri Servizi</a>
+            </div>
         </div>
     </section>
 
@@ -66,13 +70,27 @@ $services = get_all_services($pdo);
         <div class="container">
             <h2 class="section-title">Dove Operiamo</h2>
             <p class="text-center">Siamo presenti a Legnano, Milano e in tutta la provincia.</p>
-            <div class="zones-list">
-                <!-- Example static links, ideally dynamic or just main ones -->
-                <a href="/riparazione-guasti/legnano">Legnano</a>
-                <a href="/riparazione-guasti/milano">Milano</a>
-                <a href="/riparazione-guasti/busto-arsizio">Busto Arsizio</a>
-                <a href="/riparazione-guasti/castellanza">Castellanza</a>
-                <a href="/riparazione-guasti/rho">Rho</a>
+            <div class="zones-wrapper">
+                <div class="zones-column">
+                    <h3><i class="fas fa-map-marker-alt"></i> Comuni Limitrofi</h3>
+                    <div class="zones-list">
+                        <?php foreach ($zones as $zone): ?>
+                            <?php if ($zone['type'] == 'Comune'): ?>
+                                <a href="/riparazione-pc/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <div class="zones-column">
+                    <h3><i class="fas fa-city"></i> Milano Città</h3>
+                    <div class="zones-list">
+                        <?php foreach ($zones as $zone): ?>
+                            <?php if ($zone['type'] == 'Quartiere'): ?>
+                                <a href="/riparazione-pc/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

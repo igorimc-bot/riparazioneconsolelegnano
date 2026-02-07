@@ -72,51 +72,43 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
 
     <section class="details-section">
         <div class="container">
-            <div class="row">
+            <div class="content-wrapper">
                 <div class="col-text">
-                    <h2>Perché scegliere noi per
-                        <?= htmlspecialchars($service['name']) ?>?
-                    </h2>
-                    <p>Operiamo a <strong>
-                            <?= htmlspecialchars($zone['name']) ?>
-                        </strong> con tecnici qualificati.</p>
+                    <h2>Perché scegliere noi per <?= htmlspecialchars($service['name']) ?>?</h2>
+                    <p>Operiamo a <strong><?= htmlspecialchars($zone['name']) ?></strong> con tecnici qualificati.</p>
                     <ul class="benefits-list">
                         <li><i class="fas fa-check"></i> Intervento Rapido</li>
                         <li><i class="fas fa-check"></i> Prezzi Trasparenti</li>
                         <li><i class="fas fa-check"></i> Garanzia sul lavoro</li>
                         <li><i class="fas fa-check"></i> Reperibilità H24</li>
                     </ul>
-                    <p class="service-desc">
-                        <?= nl2br(htmlspecialchars($service['description'])) ?>
-                    </p>
+                    <p class="service-desc"><?= nl2br(htmlspecialchars($service['description'])) ?></p>
                 </div>
                 <div class="col-form" id="contatti">
-                    <div class="form-box">
-                        <h3>Richiedi Assistenza</h3>
-                        <p>Ti risponderemo in pochi minuti.</p>
-                        <form action="/process_lead.php" method="POST">
-                            <input type="hidden" name="service_id" value="<?= $service['id'] ?>">
-                            <input type="hidden" name="zone_id" value="<?= $zone['id'] ?? '' ?>">
+                    <h3>Richiedi Assistenza</h3>
+                    <p>Ti risponderemo in pochi minuti.</p>
+                    <form action="/process_lead.php" method="POST">
+                        <input type="hidden" name="service_id" value="<?= $service['id'] ?>">
+                        <input type="hidden" name="zone_id" value="<?= $zone['id'] ?? '' ?>">
 
-                            <div class="form-group">
-                                <label>Nome</label>
-                                <input type="text" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label>Telefono</label>
-                                <input type="tel" name="phone" required>
-                            </div>
-                            <div class="form-group">
-                                <label>Email (Opzionale)</label>
-                                <input type="email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <label>Messaggio</label>
-                                <textarea name="message" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn-submit-full">Invia Richiesta</button>
-                        </form>
-                    </div>
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input type="text" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Telefono</label>
+                            <input type="tel" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email (Opzionale)</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Messaggio</label>
+                            <textarea name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit-full">Invia Richiesta</button>
+                    </form>
                 </div>
             </div>
         </div>
