@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $zoneName = get_zone_name_by_id($pdo, $zone_id);
 
             // Prepare Email Content
-            $subject = "Nuovo Lead: $name";
+            $subject = "Nuova Richiesta da RIPARAZIONE PC LEGNANO";
             $emailBody = "
             <h2>Nuova Richiesta di Assistenza</h2>
             <p><strong>Nome:</strong> " . htmlspecialchars($name) . "</p>
