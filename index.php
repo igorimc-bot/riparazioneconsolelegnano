@@ -24,6 +24,7 @@ $zones = get_all_zones($pdo);
         content="Assistenza informatica esperta a Legnano, Milano e provincia. Riparazione PC, siti web, recupero dati e servizi digitali.">
     <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cookie-banner.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
@@ -163,6 +164,26 @@ $zones = get_all_zones($pdo);
     </section>
 
     <?php include 'includes/footer.php'; ?>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p>
+                    Utilizziamo i cookie per migliorare la tua esperienza di navigazione e analizzare il traffico del
+                    sito.
+                    Accettando, consenti l'uso di cookie analitici.
+                    <a href="/cookie-policy" target="_blank">Maggiori informazioni</a>
+                </p>
+            </div>
+            <div class="cookie-buttons">
+                <button id="cookie-accept" class="cookie-btn">Accetta</button>
+                <button id="cookie-reject" class="cookie-btn">Rifiuta</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/cookie-consent.js"></script>
 
 </body>
 
