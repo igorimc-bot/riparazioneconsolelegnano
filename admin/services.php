@@ -163,8 +163,11 @@ $services = get_all_services($pdo);
                                             <span class="badge bg-secondary"><?= htmlspecialchars($svc['slug']) ?></span>
                                         </td>
                                         <td class="text-center align-middle">
+                                            <a href="edit_service.php?id=<?= $svc['id'] ?>" class="btn btn-warning btn-sm me-1" title="Modifica">
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </a>
                                             <form method="POST"
-                                                onsubmit="return confirm('Sei sicuro di voler eliminare questo servizio?');">
+                                                onsubmit="return confirm('Sei sicuro di voler eliminare questo servizio?');" style="display:inline-block;">
                                                 <input type="hidden" name="service_id" value="<?= $svc['id'] ?>">
                                                 <button type="submit" name="delete_service" class="btn btn-danger btn-sm"
                                                     title="Elimina">

@@ -18,6 +18,9 @@ CREATE TABLE IF NOT EXISTS `services` (
   `slug` varchar(100) NOT NULL,
   `description` text,
   `sort_order` int(11) NOT NULL DEFAULT 0,
+  `meta_title` varchar(255) DEFAULT NULL,
+  `meta_description` text,
+  `meta_keywords` text,
   `created_at` timestamp DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `slug` (`slug`)

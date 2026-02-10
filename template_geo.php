@@ -22,12 +22,28 @@ if (!$zone) {
     $zone = ['name' => 'Legnano e Provincia', 'slug' => 'legnano', 'parent_city' => ''];
 }
 
-$page_title = htmlspecialchars($service['name']) . " a " . htmlspecialchars($zone['name']);
 if ($zone['parent_city']) {
-    $page_title .= " (" . htmlspecialchars($zone['parent_city']) . ")";
+    $parent_city = $zone['parent_city'];
+} else {
+    $parent_city = '';
 }
 
-$meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htmlspecialchars($zone['name']) . "? Intervento rapido ed economico. Chiama ora per un preventivo gratuito!";
+// Prepare placeholders
+$placeholders = [
+    '{service_name}' => $service['name'],
+    '{zone_name}' => $zone['name'],
+    '{parent_city}' => $parent_city
+];
+
+// Get SEO templates from DB or use defaults
+$meta_title_tpl = !empty($service['meta_title']) ? $service['meta_title'] : "{service_name} a {zone_name}";
+$meta_desc_tpl = !empty($service['meta_description']) ? $service['meta_description'] : "Cerchi {service_name} a {zone_name}? Intervento rapido ed economico.";
+$meta_kw_tpl = !empty($service['meta_keywords']) ? $service['meta_keywords'] : "{service_name}, assistenza {zone_name}";
+
+// Replace placeholders
+$page_title = strtr($meta_title_tpl, $placeholders);
+$meta_description = strtr($meta_desc_tpl, $placeholders);
+$meta_keywords = strtr($meta_kw_tpl, $placeholders);
 ?>
 <!DOCTYPE html>
 <html lang="it">
@@ -35,10 +51,9 @@ $meta_description = "Cerchi " . htmlspecialchars($service['name']) . " a " . htm
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <?= $page_title ?> - Assistenza Computer Pronto Intervento
-    </title>
-    <meta name="description" content="<?= $meta_description ?>">
+    <title><?= htmlspecialchars($page_title) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($meta_description) ?>">
+    <meta name="keywords" content="<?= htmlspecialchars($meta_keywords) ?>">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
