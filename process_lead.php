@@ -19,6 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // --- SEND EMAIL NOTIFICATION ---
             require_once 'includes/functions.php';
+            require_once 'includes/mailer.php';
 
             // SMTP Config
             $smtpHost = 'authsmtp.securemail.pro';
