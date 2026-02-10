@@ -14,6 +14,7 @@ $zones = get_all_zones($pdo);
     <title>Assistenza Computer Legnano e Provincia - Pronto Intervento</title>
     <meta name="description"
         content="Assistenza informatica esperta a Legnano, Milano e provincia. Riparazione PC, siti web, recupero dati e servizi digitali.">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link
