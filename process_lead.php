@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'includes/db_connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -54,6 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // -------------------------------
 
             // Redirect to thank you page
+            $_SESSION['lead_completed'] = true;
             header("Location: /thank-you.php");
             exit;
         } catch (PDOException $e) {

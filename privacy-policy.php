@@ -34,6 +34,7 @@ require_once 'includes/functions.php';
             margin-bottom: 15px;
         }
     </style>
+    <?php include 'includes/head_analytics.php'; ?>
 </head>
 
 <body>

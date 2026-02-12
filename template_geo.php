@@ -66,6 +66,7 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/cookie-banner.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <?php include 'includes/head_analytics.php'; ?>
 </head>
 
 <body>
