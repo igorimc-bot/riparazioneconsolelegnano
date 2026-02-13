@@ -38,9 +38,8 @@ $zones = get_all_zones($pdo);
 
     <section class="hero">
         <div class="hero-slider">
-            <div class="slide" style="background-image: url('/assets/img/hero_console_1.jpg')"></div>
-            <div class="slide" style="background-image: url('/assets/img/hero_console_2.jpg')"></div>
-            <div class="slide" style="background-image: url('/assets/img/hero_console_3.jpg')"></div>
+            <div class="slide"
+                style="background-image: url('/assets/img/hero-homepage-riparazioneconsole-legnano.webp')"></div>
         </div>
         <div class="hero-overlay"></div>
         <div class="container">
