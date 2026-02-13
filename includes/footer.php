@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; <?= date('Y') ?> La Legnano Informatica Srls – P.Iva 13983930960 – REA MI-2754801</p>
+            <p>&copy; <?= date('Y') ?> Riparazione Console Legnano – P.Iva 13983930960 – REA MI-2754801</p>
             <p style="margin-top: 10px; font-size: 0.75rem;">
                 <a href="/privacy-policy" style="color: inherit; margin: 0 10px;">Privacy Policy</a> |
                 <a href="/termini-servizio" style="color: inherit; margin: 0 10px;">Termini del Servizio</a> |

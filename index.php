@@ -19,9 +19,9 @@ $zones = get_all_zones($pdo);
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assistenza Computer Legnano e Provincia - Pronto Intervento</title>
+    <title>Riparazione Console Legnano e Provincia - PlayStation, Xbox, Nintendo</title>
     <meta name="description"
-        content="Assistenza informatica esperta a Legnano, Milano e provincia. Riparazione PC, siti web, recupero dati e servizi digitali.">
+        content="Assistenza specializzata console a Legnano, Milano e provincia. Riparazione PlayStation 5, PS4, Xbox Series X, Switch e controller. Interventi rapidi e garantiti.">
     <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/cookie-banner.css">
@@ -38,14 +38,14 @@ $zones = get_all_zones($pdo);
 
     <section class="hero">
         <div class="hero-slider">
-            <div class="slide" style="background-image: url('/assets/img/hero_home_1.jpg')"></div>
-            <div class="slide" style="background-image: url('/assets/img/hero_home_2.jpg')"></div>
-            <div class="slide" style="background-image: url('/assets/img/hero_home_3.jpg')"></div>
+            <div class="slide" style="background-image: url('/assets/img/hero_console_1.jpg')"></div>
+            <div class="slide" style="background-image: url('/assets/img/hero_console_2.jpg')"></div>
+            <div class="slide" style="background-image: url('/assets/img/hero_console_3.jpg')"></div>
         </div>
         <div class="hero-overlay"></div>
         <div class="container">
-            <h1>Assistenza Informatica Professionale a Legnano e Provincia</h1>
-            <p>Interventi rapidi e garantiti a Legnano e dintorni. Operativi con la massima rapidità.</p>
+            <h1>Riparazione Console e Controller a Legnano e Provincia</h1>
+            <p>Interventi rapidi su PlayStation, Xbox e Nintendo. Torna a giocare subito!</p>
             <div class="hero-buttons">
                 <a href="#contatti" class="btn-hero">Contattaci Subito</a>
                 <a href="#servizi" class="btn-hero-secondary">I Nostri Servizi</a>
@@ -56,8 +56,9 @@ $zones = get_all_zones($pdo);
     <section id="servizi" class="services-section">
         <div class="container">
             <h2 class="section-title">I Nostri Servizi</h2>
-            <p class="section-subtitle">Offriamo soluzioni informatiche complete per privati e aziende. Dalla
-                riparazione hardware allo sviluppo software, i nostri tecnici esperti sono pronti a risolvere ogni tua
+            <p class="section-subtitle">Offriamo soluzioni specializzate per gamer e appassionati. Dalla
+                riparazione di console next-gen al recupero controller, i nostri tecnici esperti sono pronti a risolvere
+                ogni tua
                 esigenza con professionalità e rapidità.</p>
             <div class="services-grid">
                 <?php foreach ($services as $service): ?>
@@ -78,9 +79,9 @@ $zones = get_all_zones($pdo);
     <section id="zone" class="zones-section bg-light">
         <div class="container">
             <h2 class="section-title">Dove Operiamo</h2>
-            <p class="section-subtitle">La nostra rete di assistenza copre capillarmente Legnano, Milano e tutti i
-                comuni della zona. Garantiamo interventi rapidi a domicilio o presso la nostra sede, assicurando massima
-                tempestività per ogni emergenza informatica.</p>
+            <p class="section-subtitle">La nostra rete di assistenza console copre Legnano, Milano e i comuni limitrofi.
+                Porta la tua console in laboratorio o richiedi il ritiro a domicilio per un servizio comodo e veloce.
+            </p>
             <div class="zones-wrapper">
                 <div class="zones-column">
                     <h3><i class="fas fa-map-marker-alt"></i> Comuni Limitrofi</h3>

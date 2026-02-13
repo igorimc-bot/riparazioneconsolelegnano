@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container">
         <div class="logo">
-            <a href="/">Assistenza Informatica Professionale - INFORMATICA LEGNANO -</a>
+            <a href="/">Riparazione Console Legnano - ASSISTENZA GAMING -</a>
         </div>
         <nav class="nav">
             <a href="/#servizi">I Servizi</a>

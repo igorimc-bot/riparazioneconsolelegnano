@@ -78,7 +78,7 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
             <h1>
                 <?= $page_title ?>
             </h1>
-            <p>Servizio informatico rapido e professionale a
+            <p>Riparazione console rapida e professionale a
                 <?= htmlspecialchars($zone['name']) ?>.
             </p>
             <div class="hero-buttons">
@@ -129,9 +129,10 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
                     </div>
 
                     <div class="local-trust">
-                        <p><i class="fas fa-map-marker-alt"></i> Il nostro laboratorio e i nostri tecnici mobili servono
+                        <p><i class="fas fa-map-marker-alt"></i> Il nostro laboratorio e i nostri tecnici specializzati
+                            servono
                             quotidianamente la zona di <strong><?= htmlspecialchars($zone['name']) ?></strong>,
-                            garantendo la massima comodità per te o la tua azienda.</p>
+                            garantendo la massima comodità per te.</p>
                     </div>
                 </div>
                 <div class="col-form" id="contatti">
