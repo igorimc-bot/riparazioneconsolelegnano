@@ -44,7 +44,7 @@ $zones = get_all_zones($pdo);
         </div>
         <div class="hero-overlay"></div>
         <div class="container">
-            <h1>Riparazione Console e Controller a Legnano e Provincia</h1>
+            <h1>Riparazione Console, Accessori e Retrogaming a Legnano</h1>
             <p>Interventi rapidi su PlayStation, Xbox e Nintendo. Torna a giocare subito!</p>
             <div class="hero-buttons">
                 <a href="#contatti" class="btn-hero">Contattaci Subito</a>
