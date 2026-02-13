@@ -52,22 +52,40 @@ $zones = get_all_zones($pdo);
         </div>
     </section>
 
+    <?php
+    $newgen_services = array_filter($services, function ($s) {
+        return $s['category'] === 'NewGEN'; });
+    $retro_services = array_filter($services, function ($s) {
+        return $s['category'] === 'Retrogaming'; });
+    ?>
+
     <section id="servizi" class="services-section">
         <div class="container">
-            <h2 class="section-title">I Nostri Servizi</h2>
-            <p class="section-subtitle">Offriamo soluzioni specializzate per gamer e appassionati. Dalla
-                riparazione di console next-gen al recupero controller, i nostri tecnici esperti sono pronti a risolvere
-                ogni tua
-                esigenza con professionalità e rapidità.</p>
+            <h2 class="section-title">Riparazione Console <span>NewGEN</span></h2>
+            <p class="section-subtitle">Assistenza specializzata per le console di ultima generazione. PlayStation 5,
+                Xbox Series X/S, Nintendo Switch e Steam Deck.</p>
             <div class="services-grid">
-                <?php foreach ($services as $service): ?>
+                <?php foreach ($newgen_services as $service): ?>
                     <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
-                        <h3>
-                            <?= htmlspecialchars($service['name']) ?>
-                        </h3>
-                        <p>
-                            <?= htmlspecialchars($service['short_description']) ?>
-                        </p>
+                        <h3><?= htmlspecialchars($service['name']) ?></h3>
+                        <p><?= htmlspecialchars($service['description']) ?></p>
+                        <span class="btn-text">Scopri di più <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
+    <section id="retrogaming" class="services-section bg-light">
+        <div class="container">
+            <h2 class="section-title">Riparazione <span>Retrogaming</span></h2>
+            <p class="section-subtitle">Riportiamo in vita le tue console classiche. Game Boy, PlayStation 1/2, Nintendo
+                64 e molto altro.</p>
+            <div class="services-grid">
+                <?php foreach ($retro_services as $service): ?>
+                    <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
+                        <h3><?= htmlspecialchars($service['name']) ?></h3>
+                        <p><?= htmlspecialchars($service['description']) ?></p>
                         <span class="btn-text">Scopri di più <i class="fas fa-arrow-right"></i></span>
                     </a>
                 <?php endforeach; ?>
