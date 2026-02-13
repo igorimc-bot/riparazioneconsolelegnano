@@ -10,8 +10,8 @@
     /* Solid Black/Slate */
     --text-muted: #64748b;
     --glass-border: 1px solid rgba(0, 0, 0, 0.05);
-    --shadow-soft: 0 10px 40px rgba(155, 17, 30, 0.08);
-    /* Hint of Ruby in shadows */
+    --shadow-soft: 0 10px 40px rgba(178, 48, 230, 0.08);
+    /* Hint of Purple in shadows */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -115,9 +115,9 @@ ul {
 }
 
 .btn-cta:hover {
-    background: #7d0e18;
-    /* Even darker red */
-    box-shadow: 0 4px 15px rgba(155, 17, 30, 0.3);
+    background: #8e26b8;
+    /* Darker purple */
+    box-shadow: 0 4px 15px rgba(178, 48, 230, 0.3);
 }
 
 /* Hero Slideshow (Light Overlay) */
@@ -473,12 +473,21 @@ ul {
     /* Hide default */
 }
 
+
+
+.btn-hero:hover {
+    background: #8e26b8;
+    /* Darker purple */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(178, 48, 230, 0.3);
+}
+
 .checkbox-group label:has(input:checked),
 .checkbox-group-vertical label:has(input:checked) {
     background: var(--primary-accent);
     color: #fff;
     border-color: var(--primary-accent);
-    box-shadow: 0 4px 12px rgba(155, 17, 30, 0.2);
+    box-shadow: 0 4px 12px rgba(178, 48, 230, 0.2);
 }
 
 .checkbox-group label:hover,
@@ -637,7 +646,7 @@ ul {
 .col-form input:focus {
     border-color: var(--primary-accent);
     outline: none;
-    box-shadow: 0 0 10px rgba(155, 17, 30, 0.05);
+    box-shadow: 0 0 10px rgba(178, 48, 230, 0.05);
 }
 
 .col-form button.btn-submit-full,
@@ -654,9 +663,10 @@ ul {
     transition: var(--transition);
 }
 
-.col-form button.btn-submit-full:hover {
-    background: #7d0e18;
-    box-shadow: 0 4px 15px rgba(155, 17, 30, 0.2);
+.col-form button.btn-submit-full:hover,
+.col-form .btn-submit-full:hover {
+    background: #8e26b8;
+    box-shadow: 0 4px 15px rgba(178, 48, 230, 0.2);
 }
 
 .benefits-list li {
