@@ -45,7 +45,7 @@ $zones = get_all_zones($pdo);
         <div class="hero-overlay"></div>
         <div class="container">
             <h1>Riparazione Console, Accessori e Retrogaming a Legnano</h1>
-            <p>Interventi rapidi su tutte le Console moderne e Retrogaming. Torna a giocare subito!</p>
+            <p>Interventi rapidi su tutte le Console moderne e Retrogaming.<br>Torna a giocare subito!</p>
             <div class="hero-buttons">
                 <a href="#contatti" class="btn-hero">Contattaci Subito</a>
                 <a href="#servizi" class="btn-hero-secondary">I Nostri Servizi</a>
