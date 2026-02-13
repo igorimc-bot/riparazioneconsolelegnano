@@ -97,3 +97,63 @@ INSERT INTO `services` (`name`, `slug`, `category`, `description`, `meta_title`,
 ('Riparazione Atari & Altri', 'riparazione-atari', 'Retrogaming', 'Atari, Commodore e altre piattaforme vintage.', 'Riparazione Atari Legnano', 'Assistenza Atari a Legnano.');
 
 SET FOREIGN_KEY_CHECKS = 1;
+
+-- ---------------------------------------------------------
+-- 4. Zone Data Insertion
+-- ---------------------------------------------------------
+
+INSERT INTO zones (name, slug, type, parent_city) VALUES 
+('Legnano', 'legnano', 'Comune', NULL),
+('Busto Arsizio', 'busto-arsizio', 'Comune', NULL),
+('Castellanza', 'castellanza', 'Comune', NULL),
+('Canegrate', 'canegrate', 'Comune', NULL),
+('San Giorgio su Legnano', 'san-giorgio-su-legnano', 'Comune', NULL),
+('Cerro Maggiore', 'cerro-maggiore', 'Comune', NULL),
+('San Vittore Olona', 'san-vittore-olona', 'Comune', NULL),
+('Villa Cortese', 'villa-cortese', 'Comune', NULL),
+('Rescaldina', 'rescaldina', 'Comune', NULL),
+('Dairago', 'dairago', 'Comune', NULL),
+('Marnate', 'marnate', 'Comune', NULL),
+('Olgiate Olona', 'olgiate-olona', 'Comune', NULL),
+('Gorla Minore', 'gorla-minore', 'Comune', NULL),
+('Busto Garolfo', 'busto-garolfo', 'Comune', NULL),
+('Parabiago', 'parabiago', 'Comune', NULL),
+('Solbiate Olona', 'solbiate-olona', 'Comune', NULL),
+('Gorla Maggiore', 'gorla-maggiore', 'Comune', NULL),
+('Casorezzo', 'casorezzo', 'Comune', NULL),
+('Nerviano', 'nerviano', 'Comune', NULL),
+('Arconate', 'arconate', 'Comune', NULL),
+('Fagnano Olona', 'fagnano-olona', 'Comune', NULL),
+('Cislago', 'cislago', 'Comune', NULL),
+('Mozzate', 'mozzate', 'Comune', NULL),
+('Ossona', 'ossona', 'Comune', NULL),
+('Carbonate', 'carbonate', 'Comune', NULL),
+('Arluno', 'arluno', 'Comune', NULL),
+('Santo Stefano Ticino', 'santo-stefano-ticino', 'Comune', NULL),
+('Inveruno', 'inveruno', 'Comune', NULL),
+('Mesero', 'mesero', 'Comune', NULL),
+('Vanzago', 'vanzago', 'Comune', NULL),
+('Pogliano Milanese', 'pogliano-milanese', 'Comune', NULL),
+('Rho', 'rho', 'Comune', NULL),
+('Lainate', 'lainate', 'Comune', NULL),
+('Magenta', 'magenta', 'Comune', NULL),
+('Saronno', 'saronno', 'Comune', NULL);
+
+INSERT INTO zones (name, slug, type, parent_city) VALUES 
+('Milano Centro', 'milano-centro', 'Quartiere', 'Milano'),
+('Milano Stazione Centrale', 'milano-stazione-centrale', 'Quartiere', 'Milano'),
+('Milano Porta Nuova', 'milano-porta-nuova', 'Quartiere', 'Milano'),
+('Milano Brera', 'milano-brera', 'Quartiere', 'Milano'),
+('Milano Navigli', 'milano-navigli', 'Quartiere', 'Milano'),
+('Milano Porta Romana', 'milano-porta-romana', 'Quartiere', 'Milano'),
+('Milano Città Studi', 'milano-citta-studi', 'Quartiere', 'Milano'),
+('Milano Lambrate', 'milano-lambrate', 'Quartiere', 'Milano'),
+('Milano San Siro', 'milano-san-siro', 'Quartiere', 'Milano'),
+('Milano Fiera', 'milano-fiera', 'Quartiere', 'Milano'),
+('Milano Sempione', 'milano-sempione', 'Quartiere', 'Milano'),
+('Milano Porta Venezia', 'milano-porta-venezia', 'Quartiere', 'Milano'),
+('Milano Isola', 'milano-isola', 'Quartiere', 'Milano'),
+('Milano Bicocca', 'milano-bicocca', 'Quartiere', 'Milano'),
+('Milano Niguarda', 'milano-niguarda', 'Quartiere', 'Milano'),
+('Milano Lorenteggio', 'milano-lorenteggio', 'Quartiere', 'Milano'),
+('Milano Bovisa', 'milano-bovisa', 'Quartiere', 'Milano');
