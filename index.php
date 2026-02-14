@@ -43,6 +43,12 @@ $zones = get_all_zones($pdo);
         </div>
         <div class="hero-overlay"></div>
         <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="assets/img/logo.webp" alt="Riparazione Console Legnano"
+                        style="max-height: 50px; width: auto;">
+                </a>
+            </div>
             <h1>Riparazione Console, Accessori e Retrogaming a Legnano</h1>
             <p>Interventi rapidi su tutte le Console moderne e Retrogaming.<br>Torna a giocare subito!</p>
             <div class="hero-buttons">
