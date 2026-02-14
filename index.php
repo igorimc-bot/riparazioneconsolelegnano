@@ -93,35 +93,6 @@ $zones = get_all_zones($pdo);
         </div>
     </section>
 
-    <section id="zone-retro" class="zones-section bg-white">
-        <div class="container">
-            <h2 class="section-title">Dove Operiamo (Retrogaming)</h2>
-            <p class="section-subtitle">Assistenza per console vintage a Legnano, Milano e provincia.</p>
-            <div class="zones-wrapper">
-                <div class="zones-column">
-                    <h3><i class="fas fa-map-marker-alt"></i> Comuni Limitrofi</h3>
-                    <div class="zones-list">
-                        <?php foreach ($zones as $zone): ?>
-                            <?php if ($zone['type'] == 'Comune'): ?>
-                                <a href="/riparazione-gameboy/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
-                            <?php endif; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-                <div class="zones-column">
-                    <h3><i class="fas fa-city"></i> Milano Città</h3>
-                    <div class="zones-list">
-                        <?php foreach ($zones as $zone): ?>
-                            <?php if ($zone['type'] == 'Quartiere'): ?>
-                                <a href="/riparazione-gameboy/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
-                            <?php endif; ?>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="zone" class="zones-section bg-light">
         <div class="container">
             <h2 class="section-title">Dove Operiamo</h2>
