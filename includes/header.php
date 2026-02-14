@@ -2,7 +2,7 @@
     <div class="container">
         <div class="logo">
             <a href="/">
-                <img src="/assets/img/logo.webp?v=2" alt="Riparazione Console Legnano">
+                <img src="/assets/img/logo.png?v=3" alt="Riparazione Console Legnano">
             </a>
         </div>
         <nav class="nav">
