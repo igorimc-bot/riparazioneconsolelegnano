@@ -137,8 +137,9 @@ ul {
 }
 
 .hero-geo {
-    background: #0f172a;
-    /* Solid dark background, no image */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hero_generico.webp');
+    background-size: cover;
+    background-position: center;
     margin-bottom: 60px;
     color: #ffffff;
     min-height: 50vh !important;
