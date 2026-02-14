@@ -141,6 +141,8 @@ ul {
     /* Solid dark background, no image */
     margin-bottom: 60px;
     color: #ffffff;
+    min-height: 50vh !important;
+    /* Reduced height for internal pages */
 }
 
 .hero-geo .container {
