@@ -1,0 +1,55 @@
+ECO I 16 PROMPT PROFESSIONALI PER GENERARE LE IMMAGINI DELLE CARD
+(Copia e incolla questi prompt in Midjourney, DALL-E 3 o Stable Diffusion)
+
+--- NEW GEN (CONSOLE MODERNE) ---
+
+1. PlayStation 5 (Riparazione/Hardware)
+PROMPT: "Sony PlayStation 5 console disassembled on a clean white professional electronics workbench, internal components exposed, high-tech screwdriver, blue ambient lighting, cinematic 8k render, photorealistic, macro photography style --ar 1:1"
+
+2. PlayStation 4 (Maintenance)
+PROMPT: "Sony PlayStation 4 Pro console on an anti-static blue repair mat, thermal paste application, precision tools, clean studio lighting, sharp focus, technical aesthetic, 8k resolution --ar 1:1"
+
+3. Xbox Series X (Internal View)
+PROMPT: "Xbox Series X console with case removed showing the massive fan and cooling system, green LED accent lighting, dark professional background, high contrast, hyper-detailed engineering view --ar 1:1"
+
+4. Xbox One (Repair Scene)
+PROMPT: "Xbox One S console on a wooden technician desk,controller parts nearby, soft warm lighting combined with cool white task light, depth of field, realistic repair shop atmosphere --ar 1:1"
+
+5. Nintendo Switch (Screen/Joycon)
+PROMPT: "Nintendo Switch OLED model lying flat on a white surface, joy-cons detached, screen displaying a vibrant repair diagnostic logo, macro shot of the usb-c port and circuitry, clean and modern style --ar 1:1"
+
+6. Nintendo DS / 3DS (Handheld Repair)
+PROMPT: "Nintendo 3DS XL handheld console open on a repair mat, stylus and small precision screwdriver, dual screens visible, soft bokeh background, detailed electronics photography --ar 1:1"
+
+7. Steam Deck (Tech Interior)
+PROMPT: "Valve Steam Deck back cover removed, complex internal motherboard and battery visible, steam vapor aesthetic in background, moody lighting, cyber-tech style, 8k render --ar 1:1"
+
+8. PSP / PS Vita (Portable)
+PROMPT: "Sony PS Vita and PSP handhelds sitting side by side on a glass table, reflection, clean minimalist composition, studio lighting, product photography style --ar 1:1"
+
+
+--- RETROGAMING (CONSOLE VINTAGE) ---
+
+9. Game Boy & Handhelds
+PROMPT: "Classic Nintendo Game Boy DMG and Game Boy Color arranged on a retro desk, scattered cartridges, soldering iron in background with smoke wisp, nostalgic warm lighting, pixel art aesthetic hint, 8k --ar 1:1"
+
+10. PlayStation 1 & 2 (Sony Legacy)
+PROMPT: "Original Sony PlayStation 1 grey console stacked with a PlayStation 2 Slim, memory cards inserted, moody dramatic lighting, dust-free museum quality condition, 8k photorealistic --ar 1:1"
+
+11. NES & SNES (Nintendo Classics)
+PROMPT: "Nintendo Entertainment System (NES) and Super Nintendo (SNES) consoles, vintage plastic texture details, controller cables coiled neatly, retro 80s synthwave lighting accents, high detail --ar 1:1"
+
+12. Nintendo 64 & GameCube
+PROMPT: "Nintendo 64 charcoal grey console next to a purple GameCube, controllers in foreground, shallow depth of field, sharp focus on the logos, clean white background, studio shot --ar 1:1"
+
+13. SEGA Mega Drive / Master System
+PROMPT: "SEGA Mega Drive (Genesis) console with '16-BIT' gold logo prominent, Sonic cartridge inserted, dark background with subtle blue neon rim light, retro-futuristic vibe, 8k --ar 1:1"
+
+14. SEGA Dreamcast
+PROMPT: "SEGA Dreamcast white console, spiral logo close-up, VMU memory unit in controller, very bright and clean high-key lighting, heavenly retro gaming aesthetic --ar 1:1"
+
+15. Xbox Classic & 360
+PROMPT: "Original Xbox console with green jewel logo glowing, next to an Xbox 360 controller, industrial repair setting, metallic textures, dramatic shadows, hyper-realistic --ar 1:1"
+
+16. Atari & Commodore (Vintage Computers)
+PROMPT: "Atari 2600 wood-grain console and a Commodore 64 keyboard computer, vintage CRT monitor in background displaying static, retro 70s/80s room atmosphere, warm cinematic lighting --ar 1:1"
