@@ -785,6 +785,15 @@ ul {
     .hero h1 {
         font-size: 2.5rem;
     }
+
+    /* Mobile Header Adjustments */
+    .header .nav {
+        display: none;
+    }
+
+    .header .container {
+        justify-content: center;
+    }
 }
 
 /* Privacy & Legal */
