@@ -69,7 +69,8 @@ CREATE TABLE `leads` (
 -- 2. Default User
 -- ---------------------------------------------------------
 
-INSERT INTO `users` (`username`, `password`) VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
+INSERT INTO `users` (`username`, `password`) VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'); -- Password: "password"
+
 
 -- ---------------------------------------------------------
 -- 3. Service Data Insertion (V3 List)

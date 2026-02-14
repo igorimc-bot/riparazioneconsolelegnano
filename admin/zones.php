@@ -41,6 +41,8 @@ $zones = get_all_zones($pdo);
 <body class="bg-light">
     <div class="container mt-5">
         <a href="index.php" class="btn btn-secondary mb-3">&larr; Dashboard</a>
+        <a href="change_password.php" class="btn btn-warning mb-3 float-end"><i class="fas fa-key"></i> Cambio
+            Password</a>
         <h2>Gestione Zone</h2>
 
         <?php if ($message): ?>

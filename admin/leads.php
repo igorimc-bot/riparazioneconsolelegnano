@@ -59,6 +59,8 @@ $leads = $pdo->query($sql)->fetchAll();
 <body class="bg-light">
     <div class="container-fluid mt-5">
         <a href="index.php" class="btn btn-secondary mb-3">&larr; Dashboard</a>
+        <a href="change_password.php" class="btn btn-warning mb-3 float-end"><i class="fas fa-key"></i> Cambio
+            Password</a>
         <h2>Gestione Leads</h2>
 
         <table class="table table-bordered bg-white">
@@ -103,13 +105,13 @@ $leads = $pdo->query($sql)->fetchAll();
                                 <input type="hidden" name="lead_id" value="<?= $lead['id'] ?>">
                                 <select name="status" class="form-select form-select-sm" onchange="this.form.submit()">
                                     <option value="Nuovo" <?= $lead['status'] == 'Nuovo' ? 'selected' : '' ?>>Nuovo</option>
-                                    <option value="Contattato" <?= $lead['status'] == 'Contattato' ? 'selected' : '' ?>
-                                        >Contattato</option>
+                                    <option value="Contattato" <?= $lead['status'] == 'Contattato' ? 'selected' : '' ?>>
+                                        Contattato</option>
                                     <option value="In Corso" <?= $lead['status'] == 'In Corso' ? 'selected' : '' ?>>In Corso
                                     </option>
                                     <option value="Chiuso" <?= $lead['status'] == 'Chiuso' ? 'selected' : '' ?>>Chiuso</option>
-                                    <option value="Cancellato" <?= $lead['status'] == 'Cancellato' ? 'selected' : '' ?>
-                                        >Cancellato</option>
+                                    <option value="Cancellato" <?= $lead['status'] == 'Cancellato' ? 'selected' : '' ?>>
+                                        Cancellato</option>
                                 </select>
                                 <input type="hidden" name="update_status" value="1">
                             </form>
