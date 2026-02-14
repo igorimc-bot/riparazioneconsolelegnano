@@ -129,9 +129,10 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
                     // Load rich content if available
                     require_once 'includes/service_content_data.php';
                     if (isset($service_contents[$service['slug']])) {
+                        // Output rich content directly
                         echo $service_contents[$service['slug']];
                     } else {
-                        // Fallback to standard DB description
+                        // Fallback to standard DB description wrapped in box
                         ?>
                         <div class="service-details-box">
                             <h3>Dettagli del Servizio</h3>
