@@ -5,13 +5,7 @@ require_once 'includes/functions.php';
 $service_slug = $_GET['service'] ?? '';
 $zone_slug = $_GET['zone'] ?? 'legnano'; // Default to Legnano if not specified
 
-// DEBUG FORCE
-echo "<div style='background:yellow; color:black; padding:10px; z-index:9999; position:relative;'>";
-echo "DEBUG INFO:<br>";
-echo "GET service: " . htmlspecialchars($service_slug) . "<br>";
-echo "GET zone: " . htmlspecialchars($zone_slug) . "<br>";
-echo "URI: " . htmlspecialchars($_SERVER['REQUEST_URI']) . "<br>";
-echo "</div>";
+
 
 $service = get_service_by_slug($pdo, $service_slug);
 $zone = get_zone_by_slug($pdo, $zone_slug);
