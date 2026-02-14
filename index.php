@@ -85,11 +85,39 @@ $zones = get_all_zones($pdo);
             <div class="services-grid">
                 <?php foreach ($retro_services as $service): ?>
                     <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
+                        <div class="card-image-placeholder"></div>
                         <h3><?= htmlspecialchars($service['name']) ?></h3>
-                        <p><?= htmlspecialchars($service['description']) ?></p>
-                        <span class="btn-text">Scopri di più <i class="fas fa-arrow-right"></i></span>
                     </a>
                 <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
+    <section id="zone-retro" class="zones-section bg-white">
+        <div class="container">
+            <h2 class="section-title">Dove Operiamo (Retrogaming)</h2>
+            <p class="section-subtitle">Assistenza per console vintage a Legnano, Milano e provincia.</p>
+            <div class="zones-wrapper">
+                <div class="zones-column">
+                    <h3><i class="fas fa-map-marker-alt"></i> Comuni Limitrofi</h3>
+                    <div class="zones-list">
+                        <?php foreach ($zones as $zone): ?>
+                            <?php if ($zone['type'] == 'Comune'): ?>
+                                <a href="/riparazione-gameboy/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <div class="zones-column">
+                    <h3><i class="fas fa-city"></i> Milano Città</h3>
+                    <div class="zones-list">
+                        <?php foreach ($zones as $zone): ?>
+                            <?php if ($zone['type'] == 'Quartiere'): ?>
+                                <a href="/riparazione-gameboy/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
