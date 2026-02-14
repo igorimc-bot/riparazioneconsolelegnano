@@ -19,8 +19,7 @@ if (!$service) {
 
 if (!$zone) {
     // Fallback zone or 404
-    $debug_slug = htmlspecialchars($zone_slug);
-    $zone = ['name' => "Legnano (Fallback: $debug_slug)", 'slug' => 'legnano', 'parent_city' => ''];
+    $zone = ['name' => 'Legnano e Provincia', 'slug' => 'legnano', 'parent_city' => ''];
 }
 
 if ($zone['parent_city']) {

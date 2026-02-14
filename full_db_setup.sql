@@ -78,24 +78,24 @@ INSERT INTO `users` (`username`, `password`) VALUES ('admin', '$2y$10$92IXUNpkjO
 
 INSERT INTO `services` (`name`, `slug`, `category`, `description`, `meta_title`, `meta_description`) VALUES
 -- NewGEN (8 items)
-('Riparazione PlayStation 5', 'riparazione-ps5', 'NewGEN', 'Assistenza completa per PlayStation 5.', 'Riparazione PlayStation 5 Legnano', 'Assistenza PS5 a Legnano.'),
-('Riparazione PlayStation 4', 'riparazione-ps4', 'NewGEN', 'Assistenza completa per PlayStation 4.', 'Riparazione PlayStation 4 Legnano', 'Assistenza PS4 a Legnano.'),
-('Riparazione Xbox Series X/S', 'riparazione-xbox-series', 'NewGEN', 'Assistenza per Xbox Series X e S.', 'Riparazione Xbox Series X/S Legnano', 'Assistenza Xbox Series a Legnano.'),
-('Riparazione Xbox One', 'riparazione-xbox-one', 'NewGEN', 'Assistenza per Xbox One.', 'Riparazione Xbox One Legnano', 'Assistenza Xbox One a Legnano.'),
-('Riparazione Nintendo Switch', 'riparazione-nintendo-switch', 'NewGEN', 'Riparazione Nintendo Switch, Lite e OLED.', 'Riparazione Nintendo Switch Legnano', 'Assistenza Switch a Legnano.'),
-('Riparazione Nintendo DS & 3DS', 'riparazione-ds-3ds', 'NewGEN', 'Assistenza per famiglia Nintendo DS e 3DS.', 'Riparazione Nintendo DS 3DS Legnano', 'Assistenza DS e 3DS a Legnano.'),
-('Riparazione Steam Deck & ASUS ROG', 'riparazione-steam-deck', 'NewGEN', 'Assistenza console PC handheld come Steam Deck.', 'Riparazione Steam Deck Legnano', 'Assistenza Steam Deck a Legnano.'),
-('Riparazione PSP & PS Vita', 'riparazione-psp-vita', 'NewGEN', 'Riparazione portatili Sony PSP e Vita.', 'Riparazione PSP PS Vita Legnano', 'Assistenza PSP e Vita a Legnano.'),
+('Riparazione PlayStation 5', 'riparazione-ps5', 'NewGEN', 'Assistenza completa per PlayStation 5.', 'Riparazione PlayStation 5 {zone_name}', 'Assistenza PS5 a {zone_name}.'),
+('Riparazione PlayStation 4', 'riparazione-ps4', 'NewGEN', 'Assistenza completa per PlayStation 4.', 'Riparazione PlayStation 4 {zone_name}', 'Assistenza PS4 a {zone_name}.'),
+('Riparazione Xbox Series X/S', 'riparazione-xbox-series', 'NewGEN', 'Assistenza per Xbox Series X e S.', 'Riparazione Xbox Series X/S {zone_name}', 'Assistenza Xbox Series a {zone_name}.'),
+('Riparazione Xbox One', 'riparazione-xbox-one', 'NewGEN', 'Assistenza per Xbox One.', 'Riparazione Xbox One {zone_name}', 'Assistenza Xbox One a {zone_name}.'),
+('Riparazione Nintendo Switch', 'riparazione-nintendo-switch', 'NewGEN', 'Riparazione Nintendo Switch, Lite e OLED.', 'Riparazione Nintendo Switch {zone_name}', 'Assistenza Switch a {zone_name}.'),
+('Riparazione Nintendo DS & 3DS', 'riparazione-ds-3ds', 'NewGEN', 'Assistenza per famiglia Nintendo DS e 3DS.', 'Riparazione Nintendo DS 3DS {zone_name}', 'Assistenza DS e 3DS a {zone_name}.'),
+('Riparazione Steam Deck & ASUS ROG', 'riparazione-steam-deck', 'NewGEN', 'Assistenza console PC handheld come Steam Deck.', 'Riparazione Steam Deck {zone_name}', 'Assistenza Steam Deck a {zone_name}.'),
+('Riparazione PSP & PS Vita', 'riparazione-psp-vita', 'NewGEN', 'Riparazione portatili Sony PSP e Vita.', 'Riparazione PSP PS Vita {zone_name}', 'Assistenza PSP e Vita a {zone_name}.'),
 
 -- Retrogaming (8 items)
-('Riparazione Game Boy Family', 'riparazione-gameboy', 'Retrogaming', 'Game Boy Classic, Color, Pocket, Advance.', 'Riparazione Game Boy Legnano', 'Assistenza Game Boy a Legnano.'),
-('Riparazione PlayStation 1 & 2', 'riparazione-ps1-ps2', 'Retrogaming', 'Assistenza PS1 e PS2.', 'Riparazione PS1 PS2 Legnano', 'Assistenza PS1 e PS2 a Legnano.'),
-('Riparazione NES & SNES', 'riparazione-nes-snes', 'Retrogaming', 'Nintendo Entertainment System e Super Nintendo.', 'Riparazione NES SNES Legnano', 'Assistenza NES e SNES a Legnano.'),
-('Riparazione N64 & GameCube', 'riparazione-n64-gamecube', 'Retrogaming', 'Nintendo 64 e GameCube.', 'Riparazione N64 GameCube Legnano', 'Assistenza N64 e GameCube a Legnano.'),
-('Riparazione SEGA Mega Drive', 'riparazione-sega-mega-drive', 'Retrogaming', 'Master System e Mega Drive.', 'Riparazione SEGA Legnano', 'Assistenza SEGA a Legnano.'),
-('Riparazione Dreamcast & Saturn', 'riparazione-dreamcast-saturn', 'Retrogaming', 'SEGA Dreamcast e Saturn.', 'Riparazione Dreamcast Legnano', 'Assistenza Dreamcast a Legnano.'),
-('Riparazione Xbox Original & 360', 'riparazione-xbox-360', 'Retrogaming', 'Xbox Original e Xbox 360.', 'Riparazione Xbox 360 Legnano', 'Assistenza Xbox 360 a Legnano.'),
-('Riparazione Atari & Altri', 'riparazione-atari', 'Retrogaming', 'Atari, Commodore e altre piattaforme vintage.', 'Riparazione Atari Legnano', 'Assistenza Atari a Legnano.');
+('Riparazione Game Boy Family', 'riparazione-gameboy', 'Retrogaming', 'Game Boy Classic, Color, Pocket, Advance.', 'Riparazione Game Boy {zone_name}', 'Assistenza Game Boy a {zone_name}.'),
+('Riparazione PlayStation 1 & 2', 'riparazione-ps1-ps2', 'Retrogaming', 'Assistenza PS1 e PS2.', 'Riparazione PS1 PS2 {zone_name}', 'Assistenza PS1 e PS2 a {zone_name}.'),
+('Riparazione NES & SNES', 'riparazione-nes-snes', 'Retrogaming', 'Nintendo Entertainment System e Super Nintendo.', 'Riparazione NES SNES {zone_name}', 'Assistenza NES e SNES a {zone_name}.'),
+('Riparazione N64 & GameCube', 'riparazione-n64-gamecube', 'Retrogaming', 'Nintendo 64 e GameCube.', 'Riparazione N64 GameCube {zone_name}', 'Assistenza N64 e GameCube a {zone_name}.'),
+('Riparazione SEGA Mega Drive', 'riparazione-sega-mega-drive', 'Retrogaming', 'Master System e Mega Drive.', 'Riparazione SEGA {zone_name}', 'Assistenza SEGA a {zone_name}.'),
+('Riparazione Dreamcast & Saturn', 'riparazione-dreamcast-saturn', 'Retrogaming', 'SEGA Dreamcast e Saturn.', 'Riparazione Dreamcast {zone_name}', 'Assistenza Dreamcast a {zone_name}.'),
+('Riparazione Xbox Original & 360', 'riparazione-xbox-360', 'Retrogaming', 'Xbox Original e Xbox 360.', 'Riparazione Xbox 360 {zone_name}', 'Assistenza Xbox 360 a {zone_name}.'),
+('Riparazione Atari & Altri', 'riparazione-atari', 'Retrogaming', 'Atari, Commodore e altre piattaforme vintage.', 'Riparazione Atari {zone_name}', 'Assistenza Atari a {zone_name}.');
 
 SET FOREIGN_KEY_CHECKS = 1;
 
