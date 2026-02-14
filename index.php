@@ -67,17 +67,17 @@ $zones = get_all_zones($pdo);
         'riparazione-xbox-series' => 'Xbox Series X.webp',
         'riparazione-xbox-one' => 'Xbox One S.webp',
         'riparazione-nintendo-switch' => 'Nintendo Switch OLED.webp',
-        'riparazione-nintendo-ds-3ds' => 'Nintendo 3DS XL.webp',
+        'riparazione-nintendo-ds-3ds' => 'Nintendo 3DS.webp',
         'riparazione-steam-deck' => 'Valve Steam Deck.webp',
         'riparazione-psp-vita' => 'Sony PS Vita and PSP.webp',
-        'riparazione-gameboy' => 'Nintendo Game Boy DMG and Game Boy Color.webp',
-        'riparazione-playstation-1-2' => 'Sony PlayStation 1 grey console stacked with a PlayStation 2 Slim.webp',
+        'riparazione-gameboy' => 'Nintendo Game Boy.webp',
+        'riparazione-playstation-1-2' => 'Sony PlayStation 1 - PlayStation 2 Slim.webp',
         'riparazione-nes-snes' => 'Nintendo Entertainment System (NES) and Super Nintendo (SNES) consoles.webp',
-        'riparazione-nintendo-64-gamecube' => 'Nintendo 64 charcoal grey console next to a purple GameCube.webp',
-        'riparazione-sega-mega-drive' => 'SEGA Dreamcast.webp', // Placeholder/Fallback
-        'riparazione-sega-dreamcast' => 'SEGA Dreamcast.webp',
-        'riparazione-xbox-classic-360' => 'Original Xbox console.webp',
-        'riparazione-atari-commodore' => 'Atari 2600 wood-grain console and a Commodore 64 keyboard computer.webp'
+        'riparazione-nintendo-64-gamecube' => 'Nintendo 64 - GameCube.webp',
+        'riparazione-sega-mega-drive' => 'SEGA Mega Drive.webp',
+        'riparazione-sega-dreamcast' => 'Dreamcast.webp',
+        'riparazione-xbox-classic-360' => 'Xbox 360.webp',
+        'riparazione-atari-commodore' => 'Atari 2600.webp'
     ];
     ?>
 
