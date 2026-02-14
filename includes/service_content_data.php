@@ -11,6 +11,10 @@ $service_contents = [];
 // 1. Riparazione PlayStation 5
 $service_contents['riparazione-ps5'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Se la tua <strong>PlayStation 5</strong> presenta malfunzionamenti, affidati al nostro centro assistenza specializzato. Offriamo servizi di <strong>riparazione console</strong> rapidi e professionali per risolvere qualsiasi problema hardware o software. I nostri tecnici qualificati utilizzano strumentazione all\'avanguardia per diagnosticare guasti complessi, garantendo interventi precisi e duraturi. Che si tratti di un problema di surriscaldamento, di una porta HDMI danneggiata o di un lettore che non legge i dischi, siamo qui per riportare la tua console al massimo delle prestazioni.</p>
+    </div>
+
     <h3>Riparazioni Hardware PlayStation 5</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -44,6 +48,10 @@ $service_contents['riparazione-ps5'] = '
 // 2. Riparazione PlayStation 4
 $service_contents['riparazione-ps4'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Hai problemi con la tua <strong>PlayStation 4</strong>? Non rinunciare ai tuoi giochi preferiti. Il nostro laboratorio offre assistenza completa per PS4 Fat, Slim e Pro. Siamo esperti nella risoluzione dei guasti più comuni, come il "Blue Light of Death", problemi di espulsione disco e rumorosità eccessiva. Eseguiamo diagnosi gratuite e preventivi trasparenti, utilizzando solo ricambi di alta qualità per garantire che la tua console torni a funzionare come nuova. Scegli la sicurezza di una riparazione professionale.</p>
+    </div>
+
     <h3>Riparazioni Hardware PlayStation 4</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -77,6 +85,10 @@ $service_contents['riparazione-ps4'] = '
 // 3. Riparazione Xbox Series X/S
 $service_contents['riparazione-xbox-series'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>La tua <strong>Xbox Series X</strong> o <strong>Series S</strong> ha smesso di funzionare correttamente? Siamo il punto di riferimento per l\'assistenza Microsoft nella tua zona. Affrontiamo con competenza problemi di accensione, errori di sistema e danni accidentali alle porte. I nostri tecnici sono costantemente aggiornati sulle ultime tecnologie per offrirti un servizio di riparazione rapido ed efficace. Non lasciare che un guasto interrompa la tua esperienza di gioco next-gen; affidati a mani esperte per un ripristino completo.</p>
+    </div>
+
     <h3>Assistenza Xbox Series X e Series S</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -110,6 +122,10 @@ $service_contents['riparazione-xbox-series'] = '
 // 4. Riparazione Xbox One
 $service_contents['riparazione-xbox-one'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Problemi con la tua <strong>Xbox One</strong>? Che tu possieda il modello originale, la S o la potente X, il nostro laboratorio è attrezzato per ripararla. Risolviamo il fastidioso "Green Screen of Death", problemi di lettura dischi e guasti all\'alimentazione. Offriamo un servizio di manutenzione accurato per prolungare la vita della tua console. Grazie alla nostra esperienza pluriennale, siamo in grado di diagnosticare e riparare guasti che altri considerano irreparabili, sempre con garanzia sul lavoro svolto.</p>
+    </div>
+
     <h3>Riparazione Xbox One (Fat, S, X)</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -143,6 +159,10 @@ $service_contents['riparazione-xbox-one'] = '
 // 5. Riparazione Nintendo Switch
 $service_contents['riparazione-nintendo-switch'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>La tua <strong>Nintendo Switch</strong> non carica più o i Joy-Con si muovono da soli? Non disperare! Siamo specialisti nella riparazione di console ibride e portatili Nintendo. Interveniamo su connettori USB-C, schermi rotti e problemi di scheda madre con precisione chirurgica. Sappiamo quanto sia importante la portabilità, per questo utilizziamo componenti resistenti e testiamo a fondo ogni riparazione. Dal modello classico alla Lite fino alla OLED, la tua Switch è in mani sicure.</p>
+    </div>
+
     <h3>Assistenza Nintendo Switch, Lite e OLED</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -176,6 +196,10 @@ $service_contents['riparazione-nintendo-switch'] = '
 // 6. Riparazione Nintendo DS & 3DS
 $service_contents['riparazione-ds-3ds'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Anche per le console della famiglia <strong>Nintendo DS e 3DS</strong> offriamo un\'assistenza completa. Ripariamo schermi superiori e inferiori, cerniere danneggiate e slot cartucce difettosi. Queste console sono robuste ma soggette a usura: riportale all\'antico splendore con un intervento professionale. Sostituiamo batterie esauste e ripariamo tasti che non rispondono più, permettendoti di goderti la tua libreria di giochi portatili senza interruzioni.</p>
+    </div>
+
     <h3>Riparazione Nintendo 3DS, 2DS, DSi e XL</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -209,6 +233,10 @@ $service_contents['riparazione-ds-3ds'] = '
 // 7. Riparazione Steam Deck & ASUS ROG
 $service_contents['riparazione-steam-deck'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Le console PC handheld come <strong>Steam Deck</strong> e <strong>ASUS ROG Ally</strong> richiedono competenza specifica. Offriamo servizi di riparazione e upgrade dedicati a questi dispositivi avanzati. Vuoi più spazio per i tuoi giochi? Effettuiamo upgrade SSD sicuri con clonazione dati. Hai problemi di drift sugli analogici? Installiamo stick Hall Effect magnetici definitivi. Mantieni la tua console fresca e performante con la nostra manutenzione termica professionale.</p>
+    </div>
+
     <h3>Assistenza Steam Deck, ASUS ROG Ally, Lenovo Legion</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -242,6 +270,10 @@ $service_contents['riparazione-steam-deck'] = '
 // 8. Riparazione PSP & PS Vita
 $service_contents['riparazione-psp-vita'] = '
 <div class="service-rich-content">
+     <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Non lasciare che la tua <strong>PSP</strong> o <strong>PS Vita</strong> prenda polvere in un cassetto. Ripariamo schermi UMD rumorosi, display rotti e problemi di ricarica per darti modo di riscoprire i classici Sony portatili. I nostri tecnici sono esperti nel recupero di queste console, offrendo soluzioni anche per device "brikkati" o con problemi software. Un\'assistenza dedicata per preservare il tuo hardware originale.</p>
+    </div>
+
     <h3>Riparazione Sony PSP e PS Vita</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -279,6 +311,10 @@ $service_contents['riparazione-psp-vita'] = '
 // 9. Riparazione Game Boy Family
 $service_contents['riparazione-gameboy'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Il <strong>Game Boy</strong> è un\'icona senza tempo. Offriamo un servizio di restauro completo per riportare in vita il tuo Game Boy Classic, Color o Advance. Oltre alle riparazioni standard, siamo specializzati in modding: installazione di schermi IPS retroilluminati per una visione perfetta, sostituzione cover e tasti. Recuperiamo anche cartucce di gioco che hanno perso i salvataggi, sostituendo la batteria interna. Rendi il tuo Game Boy eterno.</p>
+    </div>
+
     <h3>Restauro Game Boy (Classic, Color, Advance, SP)</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -312,6 +348,10 @@ $service_contents['riparazione-gameboy'] = '
 // 10. Riparazione PlayStation 1 & 2
 $service_contents['riparazione-ps1-ps2'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>La storia dei videogiochi passa da qui. Se la tua <strong>PS1</strong> o <strong>PS2</strong> fa fatica a leggere i dischi o non si accende, portala da noi. Eseguiamo la taratura del laser, la sostituzione del blocco ottico e la riparazione dell\'alimentazione interna. Offriamo anche servizi di modifica region-free e pulizia profonda. Preserva la tua collezione di classici affidandoti a tecnici che conoscono ogni vite di queste console leggendarie.</p>
+    </div>
+
     <h3>Assistenza Sony PlayStation 1 e 2</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -341,6 +381,10 @@ $service_contents['riparazione-ps1-ps2'] = '
 // 11. Riparazione NES & SNES
 $service_contents['riparazione-nes-snes'] = '
 <div class="service-rich-content">
+     <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Il lampeggiamento del led rosso sul <strong>NES</strong> è un incubo per molti collezionisti. Noi lo risolviamo definitivamente. Offriamo assistenza per Nintendo Entertainment System e Super Nintendo, inclusa la sostituzione del connettore a 72 pin e il "retrobright" per rimuovere l\'ingiallimento delle plastiche. Miglioriamo anche l\'uscita video per permetterti di collegare queste console retrò ai televisori moderni con la migliore qualità possibile.</p>
+    </div>
+
     <h3>Restauro Nintendo NES e Super Nintendo</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -370,6 +414,10 @@ $service_contents['riparazione-nes-snes'] = '
 // 12. Riparazione N64 & GameCube
 $service_contents['riparazione-n64-gamecube'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Il controller del <strong>Nintendo 64</strong> è unico, ma l\'usura dello stick analogico è inevitabile. Offriamo la rigenerazione dello stick o la sostituzione con varianti moderne e precise. Per il <strong>GameCube</strong>, risolviamo i problemi di lettura disco calibrando il laser o sostituendo i condensatori ottici. Che tu voglia rigiocare a Mario Kart 64 o Smash Bros Melee, ci assicuriamo che il tuo hardware sia all\'altezza della sfida.</p>
+    </div>
+
     <h3>Assistenza Nintendo 64 e GameCube</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -399,6 +447,10 @@ $service_contents['riparazione-n64-gamecube'] = '
 // 13. Riparazione SEGA Mega Drive
 $service_contents['riparazione-sega-mega-drive'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>GENESIS DOES! Se il tuo <strong>SEGA Mega Drive</strong> ha bisogno di cure, sei nel posto giusto. Ripariamo problemi di accensione, jack di alimentazione dissaldati e audio distorto. Offriamo anche mod video per migliorare la nitidezza dell\'immagine e pulizia approfondita degli slot cartucce. Mantieni viva l\'era dei 16-bit con un\'assistenza tecnica qualificata per tutto l\'hardware SEGA, inclusi Master System e Game Gear.</p>
+    </div>
+
     <h3>Riparazione SEGA Mega Drive / Genesis</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -421,6 +473,10 @@ $service_contents['riparazione-sega-mega-drive'] = '
 // 14. Riparazione Dreamcast & Saturn
 $service_contents['riparazione-dreamcast-saturn'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Il <strong>Dreamcast</strong> e il <strong>Saturn</strong> sono gioielli tecnologici che richiedono manutenzione specifica. Risolviamo il problema del riavvio casuale del Dreamcast pulendo i contatti dell\'alimentatore e tariamo le lenti GD-ROM per una lettura perfetta. Sostituiamo le batterie tampone interne (spesso saldate) con supporti rimovibili per facilitare le sostituzioni future. Un servizio premium per le console più amate dai puristi SEGA.</p>
+    </div>
+
     <h3>Assistenza SEGA Dreamcast e Saturn</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -443,6 +499,10 @@ $service_contents['riparazione-dreamcast-saturn'] = '
 // 15. Riparazione Xbox Original & 360
 $service_contents['riparazione-xbox-360'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Il "Red Ring of Death" su <strong>Xbox 360</strong> è un problema noto, ma spesso risolvibile. Eseguiamo diagnosi avanzate per identificare la causa del guasto e tentare il ripristino tramite reflow professionale e sostituzione pasta termica. Per la <strong>Xbox Original</strong>, offriamo la rimozione preventiva del condensatore dell\'orologio (Clock Capacitor) che perde acido e distrugge la scheda madre. Proteggi la tua console dai danni del tempo con la nostra manutenzione preventiva.</p>
+    </div>
+
     <h3>Assistenza Xbox Original e 360</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
@@ -472,6 +532,10 @@ $service_contents['riparazione-xbox-360'] = '
 // 16. Riparazione Atari & Altri
 $service_contents['riparazione-atari'] = '
 <div class="service-rich-content">
+    <div class="intro-block" style="margin-bottom: 30px;">
+        <p>Il retrogaming va oltre Nintendo e SEGA. Ripariamo anche piattaforme storiche come <strong>Atari 2600</strong>, Commodore 64 e Amiga. Offriamo modifiche video per convertire il segnale RF in Composito o S-Video, rendendo queste macchine utilizzabili sui TV moderni. Ripariamo joystick classici e controlliamo gli alimentatori vintage per garantirti sicurezza e affidabilità. Se ami la storia dei videogiochi, noi siamo qui per preservarla funzionante.</p>
+    </div>
+
     <h3>Restauro Atari 2600, Commodore, Amiga</h3>
     <div class="benefits-grid">
         <div class="benefit-item">
