@@ -59,6 +59,26 @@ $zones = get_all_zones($pdo);
     $retro_services = array_filter($services, function ($s) {
         return $s['category'] === 'Retrogaming';
     });
+
+    // Mappa immagini servizi
+    $service_images = [
+        'riparazione-ps5' => 'Sony PlayStation 5.webp',
+        'riparazione-ps4' => 'Sony PlayStation 4.webp',
+        'riparazione-xbox-series' => 'Xbox Series X.webp',
+        'riparazione-xbox-one' => 'Xbox One S.webp',
+        'riparazione-nintendo-switch' => 'Nintendo Switch OLED.webp',
+        'riparazione-nintendo-ds-3ds' => 'Nintendo 3DS XL.webp',
+        'riparazione-steam-deck' => 'Valve Steam Deck.webp',
+        'riparazione-psp-vita' => 'Sony PS Vita and PSP.webp',
+        'riparazione-gameboy' => 'Nintendo Game Boy DMG and Game Boy Color.webp',
+        'riparazione-playstation-1-2' => 'Sony PlayStation 1 grey console stacked with a PlayStation 2 Slim.webp',
+        'riparazione-nes-snes' => 'Nintendo Entertainment System (NES) and Super Nintendo (SNES) consoles.webp',
+        'riparazione-nintendo-64-gamecube' => 'Nintendo 64 charcoal grey console next to a purple GameCube.webp',
+        'riparazione-sega-mega-drive' => 'SEGA Dreamcast.webp', // Placeholder/Fallback
+        'riparazione-sega-dreamcast' => 'SEGA Dreamcast.webp',
+        'riparazione-xbox-classic-360' => 'Original Xbox console.webp',
+        'riparazione-atari-commodore' => 'Atari 2600 wood-grain console and a Commodore 64 keyboard computer.webp'
+    ];
     ?>
 
     <section id="servizi" class="services-section">
@@ -68,8 +88,14 @@ $zones = get_all_zones($pdo);
                 Xbox Series X/S, Nintendo Switch e Steam Deck.</p>
             <div class="services-grid">
                 <?php foreach ($newgen_services as $service): ?>
+                    <?php
+                    $img_file = $service_images[$service['slug']] ?? '';
+                    $img_path = $img_file ? "/assets/img/servizi/$img_file" : '';
+                    ?>
                     <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
-                        <div class="card-image-placeholder"></div>
+                        <div class="card-image-placeholder"
+                            style="<?= $img_path ? "background-image: url('$img_path'); background-size: cover;" : '' ?>">
+                        </div>
                         <h3><?= htmlspecialchars($service['name']) ?></h3>
                     </a>
                 <?php endforeach; ?>
@@ -84,12 +110,19 @@ $zones = get_all_zones($pdo);
                 64 e molto altro.</p>
             <div class="services-grid">
                 <?php foreach ($retro_services as $service): ?>
+                    <?php
+                    $img_file = $service_images[$service['slug']] ?? '';
+                    $img_path = $img_file ? "/assets/img/servizi/$img_file" : '';
+                    ?>
                     <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
-                        <div class="card-image-placeholder"></div>
+                        <div class="card-image-placeholder"
+                            style="<?= $img_path ? "background-image: url('$img_path'); background-size: cover;" : '' ?>">
+                        </div>
                         <h3><?= htmlspecialchars($service['name']) ?></h3>
                     </a>
                 <?php endforeach; ?>
             </div>
+
         </div>
     </section>
 
