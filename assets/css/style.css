@@ -68,9 +68,10 @@ ul {
 
 /* Header */
 .header {
-    background: rgba(255, 255, 255, 0.8);
-    /* More transparent as requested */
-    backdrop-filter: blur(10px);
+    background: #ffffff;
+    /* Solid white background */
+    /* Remove transparency and blur */
+    /* backdrop-filter: blur(10px); */
     border-bottom: var(--glass-border);
     padding: 15px 0;
     position: sticky;
@@ -98,8 +99,8 @@ ul {
 }
 
 .header .logo img {
-    max-height: 50px;
-    /* Logo height in navbar */
+    max-height: 80px;
+    /* Increased size as requested */
     width: auto;
     transition: transform 0.3s ease;
 }
