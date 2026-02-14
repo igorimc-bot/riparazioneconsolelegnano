@@ -125,10 +125,19 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
                         </div>
                     </div>
 
-                    <div class="service-details-box">
-                        <h3>Dettagli del Servizio</h3>
-                        <p class="service-desc"><?= nl2br(htmlspecialchars($service['description'])) ?></p>
-                    </div>
+                    <?php
+                    // Load rich content if available
+                    require_once 'includes/service_content_data.php';
+                    if (isset($service_contents[$service['slug']])) {
+                        echo $service_contents[$service['slug']];
+                    } else {
+                        // Fallback to standard DB description
+                        ?>
+                        <div class="service-details-box">
+                            <h3>Dettagli del Servizio</h3>
+                            <p class="service-desc"><?= nl2br(htmlspecialchars($service['description'])) ?></p>
+                        </div>
+                    <?php } ?>
 
                     <div class="local-trust">
                         <p><i class="fas fa-map-marker-alt"></i> Il nostro laboratorio e i nostri tecnici specializzati
