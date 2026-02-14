@@ -1,7 +1,9 @@
 <header class="header">
     <div class="container">
         <div class="logo">
-            <a href="/">Riparazione Console Legnano - ASSISTENZA GAMING -</a>
+            <a href="/">
+                <img src="/assets/img/logo.webp?v=2" alt="Riparazione Console Legnano">
+            </a>
         </div>
         <nav class="nav">
             <a href="/#servizi">I Servizi</a>
