@@ -69,9 +69,8 @@ $zones = get_all_zones($pdo);
             <div class="services-grid">
                 <?php foreach ($newgen_services as $service): ?>
                     <a href="/<?= $service['slug'] ?>/legnano" class="service-card">
+                        <div class="card-image-placeholder"></div>
                         <h3><?= htmlspecialchars($service['name']) ?></h3>
-                        <p><?= htmlspecialchars($service['description']) ?></p>
-                        <span class="btn-text">Scopri di più <i class="fas fa-arrow-right"></i></span>
                     </a>
                 <?php endforeach; ?>
             </div>
@@ -107,8 +106,7 @@ $zones = get_all_zones($pdo);
                     <div class="zones-list">
                         <?php foreach ($zones as $zone): ?>
                             <?php if ($zone['type'] == 'Comune'): ?>
-                                <a
-                                    href="/<?= $services[0]['slug'] ?>/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
+                                <a href="/riparazione-ps5/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
                             <?php endif; ?>
                         <?php endforeach; ?>
                     </div>
@@ -118,8 +116,7 @@ $zones = get_all_zones($pdo);
                     <div class="zones-list">
                         <?php foreach ($zones as $zone): ?>
                             <?php if ($zone['type'] == 'Quartiere'): ?>
-                                <a
-                                    href="/<?= $services[0]['slug'] ?>/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
+                                <a href="/riparazione-ps5/<?= $zone['slug'] ?>"><?= htmlspecialchars($zone['name']) ?></a>
                             <?php endif; ?>
                         <?php endforeach; ?>
                     </div>
