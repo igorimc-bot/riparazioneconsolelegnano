@@ -67,17 +67,17 @@ $zones = get_all_zones($pdo);
         'riparazione-xbox-series' => 'Xbox Series X.webp',
         'riparazione-xbox-one' => 'Xbox One S.webp',
         'riparazione-nintendo-switch' => 'Nintendo Switch OLED.webp',
-        'riparazione-nintendo-ds-3ds' => 'Nintendo 3DS.webp',
+        'riparazione-ds-3ds' => 'Nintendo 3DS.webp',
         'riparazione-steam-deck' => 'Valve Steam Deck.webp',
         'riparazione-psp-vita' => 'Sony PS Vita and PSP.webp',
         'riparazione-gameboy' => 'Nintendo Game Boy.webp',
-        'riparazione-playstation-1-2' => 'Sony PlayStation 1 - PlayStation 2 Slim.webp',
+        'riparazione-ps1-ps2' => 'Sony PlayStation 1 - PlayStation 2 Slim.webp',
         'riparazione-nes-snes' => 'Nintendo Entertainment System (NES) and Super Nintendo (SNES) consoles.webp',
-        'riparazione-nintendo-64-gamecube' => 'Nintendo 64 - GameCube.webp',
+        'riparazione-n64-gamecube' => 'Nintendo 64 - GameCube.webp',
         'riparazione-sega-mega-drive' => 'SEGA Mega Drive.webp',
-        'riparazione-sega-dreamcast' => 'Dreamcast.webp',
-        'riparazione-xbox-classic-360' => 'Xbox 360.webp',
-        'riparazione-atari-commodore' => 'Atari 2600.webp'
+        'riparazione-dreamcast-saturn' => 'Dreamcast.webp',
+        'riparazione-xbox-360' => 'Xbox 360.webp',
+        'riparazione-atari' => 'Atari 2600.webp'
     ];
     ?>
 
