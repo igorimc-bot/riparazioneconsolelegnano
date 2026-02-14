@@ -79,7 +79,7 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
         <div class="container">
             <div class="logo">
                 <a href="/">
-                    <img src="/assets/img/logo.webp" alt="Riparazione Console Legnano"
+                    <img src="/assets/img/logo.webp?v=2" alt="Riparazione Console Legnano"
                         style="max-height: 50px; width: auto;">
                 </a>
             </div>
