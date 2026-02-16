@@ -52,12 +52,12 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PNRRBC5F4B"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYGDCYCVV9"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-PNRRBC5F4B');
+        gtag('config', 'G-TYGDCYCVV9');
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -41,14 +41,14 @@
 
         const script = document.createElement('script');
         script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-PNRRBC5F4B';
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TYGDCYCVV9';
         document.head.appendChild(script);
 
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         window.gtag = gtag;
         gtag('js', new Date());
-        gtag('config', 'G-PNRRBC5F4B');
+        gtag('config', 'G-TYGDCYCVV9');
     }
 
     // Apply consent preferences
