@@ -4,10 +4,10 @@ $page_title = "Grazie - Assistenza Computer Legnano";
 ?>
 <!-- Lead Tracking -->
 <?php if (isset($_SESSION['lead_completed']) && $_SESSION['lead_completed']): ?>
-        <script>
-            fetch('https://dashboard.bbproservice.it/api.php?site_id=6&type=lead');
-        </script>
-        <?php unset($_SESSION['lead_completed']); ?>
+    <script>
+        fetch('https://dashboard.bbproservice.it/api.php?site_id=8&type=lead');
+    </script>
+    <?php unset($_SESSION['lead_completed']); ?>
 <?php endif; ?>
 <!DOCTYPE html>
 <html lang="it">
