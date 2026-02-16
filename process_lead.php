@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $smtpHost = 'authsmtp.securemail.pro';
             $smtpPort = 465;
             $smtpUser = 'info@riparazioneconsolelegnano.it';
-            $smtpPass = 'W6WT3k7HEe';
+            $smtpPass = 'i3DfgU1Kbo';
 
             $mailer = new SimpleSMTP($smtpHost, $smtpPort, $smtpUser, $smtpPass);
 
