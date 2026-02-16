@@ -121,7 +121,7 @@ $meta_keywords = strtr($meta_kw_tpl, $placeholders);
                             <i class="fas fa-euro-sign"></i>
                             <div>
                                 <strong>Prezzi Chiari</strong>
-                                <p>Preventivi gratuiti e trasparenti prima di ogni riparazione, senza sorprese.</p>
+                                <p>Preventivi e diagnosi prima della riparazione, senza sorprese.</p>
                             </div>
                         </div>
                     </div>
