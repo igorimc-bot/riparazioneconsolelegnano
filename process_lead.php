@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // SMTP Config
             $smtpHost = 'authsmtp.securemail.pro';
             $smtpPort = 465;
-            $smtpUser = 'info@riparazionepclegnano.it';
+            $smtpUser = 'info@riparazioneconsolelegnano.it';
             $smtpPass = 'W6WT3k7HEe';
 
             $mailer = new SimpleSMTP($smtpHost, $smtpPort, $smtpUser, $smtpPass);
@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $to = ['igorimc@gmail.com', 'lalegnanoinformatica@gmail.com', 'assistenzacomputerlegnano@gmail.com'];
 
             // Send
-            $mailer->send($to, $subject, $emailBody, 'RIPARAZIONE PC LEGNANO', $email ?: null);
+            $mailer->send($to, $subject, $emailBody, 'RIPARAZIONE CONSOLE LEGNANO', $email ?: null);
             // -------------------------------
 
             // Redirect to thank you page
